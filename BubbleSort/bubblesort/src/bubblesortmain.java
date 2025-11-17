@@ -4,8 +4,10 @@ public class bubblesortmain {
 
         System.out.println("Array before sorting: ");
         for (int i : arr) {
-            System.out.print(i + " ");
+            System.out.print(i + ", ");
         }
+        
+
         System.out.println();
         bubbleSort(arr);
 
